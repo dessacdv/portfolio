@@ -1,19 +1,19 @@
-/*===== GOOGLE FONTS =====*/
+/* GOOGLE FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
 
-/*===== VARIABLES CSS =====*/
+/* VARIABLES CSS */
 :root{
     --header-height: 3rem;
     --font-medium: 500;
 }
-/*===== Colores =====*/
+/* Colors */
 :root{
-    --first-color: #5361FF;
+    --first-color: #d68249;
     --white-color: #FAFAFF;
-    --dark-color: #2a3b47;
-    --text-color: #697477;
+    --dark-color: #521f07;
+    --text-color: #50585a;
 }
-/*===== Fuente y tipografia =====*/
+/* Fonts and typography */
 :root{
     --body-font: 'Montserrat', sans-serif;
 
@@ -29,19 +29,19 @@
         --small-font-size: .875rem;
     }
 }
-/*===== Margenes =====*/
+/* Main */
 :root{
     --mb-1: 0.5rem;
     --mb-2: 1rem;
     --mb-3: 1.5rem;
     --mb-4: 2rem;
 }
-/*===== z index =====*/
+/* z index */
 :root{
     --z-fixed: 100;
 }
 
-/*===== BASE =====*/
+/* BASE */
 *,::before,::after{
     box-sizing: border-box;
 }
@@ -74,7 +74,7 @@ img{
     display: block;
 }
 
-/*===== CLASS CSS ===== */
+/* CLASS CSS  */
 .section{
     padding: 3rem 0;
 
@@ -98,7 +98,7 @@ img{
         }
     }
 }
-/*===== LAYOUT =====*/
+/* LAYOUT */
 .bd-grid{
     max-width: 1024px;
     display: grid;
@@ -117,7 +117,7 @@ img{
     background-color: var(--first-color);
 }
 
-/*===== NAV =====*/
+/* NAV */
 .nav{
     height: var(--header-height);
     display: flex;
@@ -173,7 +173,7 @@ img{
     background-color: var(--first-color);
 }
 
-/*===== HOME =====*/
+/* HOME */
 .home{
     position: relative;
     background-color: var(--first-color);
@@ -212,7 +212,7 @@ img{
     }
 }
 
-/* ===== ABOUT =====*/
+/*  ABOUT */
 .about{
     &__container{
         justify-items: center;
@@ -256,7 +256,7 @@ img{
         }
     }
 }
-/* ===== SKILLS =====*/
+/*  SKILLS */
 .skills{
     &__container{
         row-gap: 2rem;
@@ -285,7 +285,7 @@ img{
         }
     }
 }
-/* ===== PORTFOLIO =====*/
+/*  PORTFOLIO */
 .portfolio{
     background-color: var(--white-color);
 
@@ -325,7 +325,7 @@ img{
         }
     }
 }
-/* ===== CONTACT =====*/
+/*  CONTACT */
 .contact{
     &__container{
         row-gap: 2rem;
@@ -365,7 +365,7 @@ img{
         cursor: pointer;
     }
 }
-/* ===== FOOTER=====*/
+/*  FOOTER*/
 .footer{
     background-color: var(--dark-color);
 
@@ -394,7 +394,7 @@ img{
     }
 }
 
-/* ===== MEDIA QUERIES=====*/
+/*  MEDIA QUERIES*/
 @media screen and(min-width: 768px){
     body{
         margin: 0;
